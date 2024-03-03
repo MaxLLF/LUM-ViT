@@ -5,6 +5,8 @@
 
 This repository is dedicated to the LUM-ViT model, a novel Vision Transformer (ViT) adaptation designed for efficient hyperspectral data processing under bandwidth constraints. By leveraging pre-acquisition modulation through a learnable under-sampling mask, LUM-ViT significantly reduces the volume of data required for high-accuracy detection tasks, demonstrating remarkable efficiency on the ImageNet classification with minimal accuracy loss.
 
+[\[OpenReview (ICLR 2024)\]](https://openreview.net/forum?id=wkbeqr5XhC)
+
 ## Project Overview
 
 LUM-ViT addresses the challenge of real-time hyperspectral data detection by introducing a deep learning-based modulation process prior to data acquisition. The core of this approach is the LUM-ViT model, a variant of the Vision Transformer that integrates a learnable under-sampling mask for pre-acquisition modulation. This innovative technique, coupled with kernel-level weight binarization and a three-stage fine-tuning strategy, allows for substantial data volume reduction while maintaining near-original accuracy on real-world optical hardware.
