@@ -1,6 +1,8 @@
 
 # LUM-ViT Model
 
+**Note: This repository is currently hosting a partial set of the code. Additional content, including further code and models, will be made available soon. Stay tuned!**
+
 This repository is dedicated to the LUM-ViT model, a novel Vision Transformer (ViT) adaptation designed for efficient hyperspectral data processing under bandwidth constraints. By leveraging pre-acquisition modulation through a learnable under-sampling mask, LUM-ViT significantly reduces the volume of data required for high-accuracy detection tasks, demonstrating remarkable efficiency on the ImageNet classification with minimal accuracy loss.
 
 ## Project Overview
@@ -35,6 +37,19 @@ Before running the LUM-ViT model, ensure the following libraries are installed:
 
 The main implementation of the LUM-ViT model can be found in `LUM-ViT.py`, relying on the `VisionTransformer` class defined in `MAE.py` for foundational transformer architecture.
 
+## Citation
+
+If you find our work useful in your research, please consider citing:
+
+```bibtex
+@inproceedings{liu2024lumvit,
+  title={LUM-ViT: Learnable Under-sampling Mask Vision Transformer for Bandwidth Limited Optical Signal Acquisition},
+  author={Liu, Lingfeng and Ni, Dong and Yuan, Hangjie},
+  booktitle={International Conference on Learning Representations},
+  year={2024},
+  url={https://openreview.net/forum?id=wkbeqr5XhC}
+}
+```
 
 
 ## Acknowledgements
