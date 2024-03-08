@@ -21,11 +21,7 @@ The methodology behind LUM-ViT emphasizes on pre-acquisition modulation and opti
 ## Dependencies
 
 - PyTorch: A machine learning library for applications like computer vision and natural language processing. [Installation instructions](https://pytorch.org/)
-- Timm: A deep-learning library with image models and utilities. Install via pip:
-
-  ```sh
-  pip install timm
-  ```
+- Timm: A deep-learning library with image models and utilities. 
 
 ## Installation
 
