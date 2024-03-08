@@ -6,6 +6,7 @@
 This repository is dedicated to the LUM-ViT model, a novel Vision Transformer (ViT) adaptation designed for efficient hyperspectral data processing under bandwidth constraints. By leveraging pre-acquisition modulation through a learnable under-sampling mask, LUM-ViT significantly reduces the volume of data required for high-accuracy detection tasks, demonstrating remarkable efficiency on the ImageNet classification with minimal accuracy loss.
 
 [\[OpenReview (ICLR 2024)\]](https://openreview.net/forum?id=wkbeqr5XhC)
+[\[arXiv\]](https://arxiv.org/abs/2403.01412)
 
 ## Project Overview
 
@@ -53,6 +54,16 @@ If you find our work useful in your research, please consider citing:
 }
 ```
 
+```bibtex
+@misc{liu2024lumvit,
+      title={LUM-ViT: Learnable Under-sampling Mask Vision Transformer for Bandwidth Limited Optical Signal Acquisition}, 
+      author={Lingfeng Liu and Dong Ni and Hangjie Yuan},
+      year={2024},
+      eprint={2403.01412},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## Acknowledgements
 
